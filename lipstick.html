@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Glamour Glitz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+
+    body {
+      background-image: url(bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    } 
+
+    .navbar {
+      margin-bottom: 20px;
+      border-radius: 0;
+      background-color:#28282B;
+    }
+
+    .jumbotron {
+      background-color: #555;
+      color: white;
+      margin: 0;
+      padding: 20px 0;
+      text-align: left;
+    }
+
+
+    body, h1, h2, h3, h4, h5, h6, p, a, li, span {
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      margin-top: 0;
+      padding-top: 0px;
+    }
+
+    .product-img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px; /* Rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      transition: transform 0.3s ease; 
+    }
+
+    .product-img:hover {
+      transform: scale(1.05); 
+    }
+
+    .product-label {
+      text-align: center;
+      margin-top: 10px;
+      color: #555; 
+    }
+
+    .product-label h3 {
+      margin-bottom: 5px; 
+    }
+
+    .product-price {
+      font-weight: bold;
+      color: red; 
+      margin-bottom: 5px;
+    }
+
+    .add-to-cart {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .add-to-cart:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="navbar-brand">Glamour Glitz</h1>      
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="main.html">Home</a></li>
+        <li class="active"><a href="Products.html">Products</a></li>
+        <li><a href="promoss.html">Promos</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <h1 align="center" style="font-size: 36px;">Lipsticks</h1>
+
+  <div class="row">
+    <div class="col-md-3">
+      <img src="lip1.jpg" alt="lip1.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Luxurious Pout</h3>
+        <p class="product-price">&#8369;400</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Pout Perfection!" - Luxurious Pout for irresistibly luscious lips.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip2.jpg" alt="lip2.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Glamorous Rouge</h3>
+        <p class="product-price">&#8369;450</p> 
+        <button class="add-to-cart">Add to Cart</button>
+        <p>"Ravishing Rouge!" - Glamorous Rouge for a bold, glamorous look.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip3.jpg" alt="lip3.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Velvet Kiss</h3>
+        <p class="product-price">&#8369;500</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Kiss of Velvet!" - Velvet Kiss for a velvety smooth finish.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip4.jpg" alt="lip4.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Diva Charm</h3>
+        <p class="product-price">&#8369;550 (Buy 3, Get 1 FREE)</p> 
+        <button class="add-to-cart">Add to Cart</button>
+        <p>"Charm Personified!" - Diva Charm for a touch of diva elegance.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <img src="lip5.jpg" alt="lip5.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Enchanting Rose</h3>
+        <p class="product-price">&#8369;600</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Rose Magic!" - Enchanting Rose for a romantic, enchanting look.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip6.jpg" alt="lip6.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Luminous Coral</h3>
+        <p class="product-price">&#8369;350</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Coral Glow!" - Luminous Coral for a radiant coral glow.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip7.jpg" alt="lip7.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Chic Berry</h3>
+        <p class="product-price">&#8369;400</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Berry Chic!" - Chic Berry for a chic and trendy look.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip8.jpg" alt="lip8.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Glossy Siren</h3>
+        <p class="product-price">&#8369;450</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Siren Shine!" - Glossy Siren for a glossy, captivating finish.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <img src="lip9.webp" alt="lip9.webp" class="product-img">
+      <div class="product-label">
+        <h3>Classic Red</h3>
+        <p class="product-price">&#8369;500</p> <!-- Peso price -->
+        <button class="add-to-cart">Add to Cart</button> <!-- Add to Cart button -->
+        <p>"Red Elegance!" - Classic Red for timeless elegance.</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="lip10.jpg" alt="lip10.jpg" class="product-img">
+      <div class="product-label">
+        <h3>Ravishing Ruby</h3>
+        <p class="product-price">&#8369;550 (10% OFF)</p> 
+        <button class="add-to-cart">Add to Cart</button> 
+        <p>"Ruby Radiance!" - Ravishing Ruby for a radiant ruby glow.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

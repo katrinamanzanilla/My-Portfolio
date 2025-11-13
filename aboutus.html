@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title >Glamour Glitz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+
+    body {
+      background-image: url(bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Times New Roman', serif;
+      margin-top: 0;
+      padding-top: 0px;
+      color: #333;
+      text-align: center;
+    } 
+
+ 
+    .navbar {
+      margin-bottom: 20px;
+      border-radius: 0;
+      background-color:#28282B;
+    }
+    
+
+    .jumbotron {
+      background-color: #555;
+      color: white;
+      margin: 0;
+      padding: 20px 0;
+      text-align: left;
+
+    }
+
+    section-title {
+      color: #fff;
+      font-size: 36px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    footer {
+      background-color: #28282B;
+      color: #fff;
+      padding: 20px 0;
+      border-radius: 0;
+      font-family: 'Times New Roman', serif;
+    }
+
+    body, h1, h2, h3, h4, h5, h6, p, a, li, span {
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      text-align: center; 
+      margin-top: 0;
+      padding-top: 0px;
+    }
+
+    .section-title {
+      color: #fff;
+      font-size: 36px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    .about-us {
+      background-color: #f9f9f9;
+      padding: 40px;
+      border-radius: 10px;
+      margin-top: 50px;
+      text-align: left;
+    }
+
+    .about-text {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .contact-info {
+      list-style: none;
+      padding: 0;
+    }
+
+    .contact-info li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .contact-info li a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    .contact-info li a:hover {
+      color: #333;
+    }
+    .about-us h2 {
+  color: black; 
+}
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 class="navbar-brand">Glamour Glitz</h1>      
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="promoss.html">Promos</a></li>
+        <li class="active"><a href="aboutus.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id="cart-icon"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="about-us">
+    <h2 class="section-title">About Us</h2>
+    <p class="about-text">Glamour Glitz is your premier destination for high-quality cosmetics and beauty products. We strive to redefine beauty by offering a diverse range of products to suit every style and occasion.</p>
+    <p class="about-text">At Glamour Glitz, we believe that makeup is not just about enhancing appearances but also about expressing individuality and confidence. Our carefully curated collection reflects our commitment to providing our customers with the tools they need to unleash their creativity and showcase their unique beauty.</p>
+    <p class="about-text">With a focus on quality and innovation, we continuously search for the latest trends and breakthroughs in the beauty industry to ensure that our customers have access to the best products available.</p>
+    <p class="about-text">For any inquiries or assistance, please feel free to contact us:</p>
+    <ul class="contact-info">
+      <li>Email: <a href="mailto:GlamGlitz@gmail.com">GlamGlitz@gmail.com</a></li>
+      <li>Facebook: Glamour Glitz</li>
+      <li>TikTok: GlamGlitzOfficial</li>
+      <li>IG: GlamGlitzOfficial</li>
+      <li>Phone: +123-456-7890</li>
+      <li>Address: 123 Beauty Lane, Quezon City</li>
+    </ul>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Email: GlamGlitz@gmail.com</p>
+  <p>Facebook: Glamour Glitz</p>
+  <p>TikTok: GlamGlitzOfficial</p>
+  <p>IG: GlamGlitzOfficial</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $("#cart-icon").click(function(){
+      $("#shopping-cart").toggle();
+    });
+  });
+</script>
+
+</body>
+</html>

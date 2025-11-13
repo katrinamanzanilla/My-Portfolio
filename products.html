@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Glamour Glitz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+
+    body {
+      background-image: url(bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    } 
+
+    .navbar {
+      margin-bottom: 20px;
+      border-radius: 0;
+      background-color:#28282B;
+    }
+
+    .jumbotron {
+      background-color: #555;
+      color: white;
+      margin: 0;
+      padding: 20px 0;
+      text-align: left;
+    }
+
+    footer {
+      background-color: #28282B;
+      color: #fff;
+      padding: 20px 0;
+      border-radius: 0;
+      font-family: 'Times New Roman', serif;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, a, li, span {
+      font-family: 'Times New Roman', serif;
+      font-size: 18px;
+      margin-top: 0;
+      padding-top: 0px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-items: center;
+    }
+    .product-item {
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+    .product-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .product-item img {
+      width: 300px; 
+      height: 300px; 
+      object-fit: cover; 
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="navbar-brand">Glamour Glitz</h1>      
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="main.html">Home</a></li>
+        <li class="active"><a href="Products.html">Products</a></li>
+        <li><a href="promoss.html">Promos</a></li>
+       <li><a href="aboutus.html">About Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<h1 align="center" style="font-size: 36px;">Glamour Gallery</h1>
+
+<div class="container">
+  <div class="product-grid">
+    <div class="product-item">
+      <a href="foundation.html">
+        <img src="foundation.jpg" alt="Foundation">
+        <br><strong>Foundation</strong>
+      </a>
+    </div>
+    <div class="product-item">
+      <a href="concealer.html">
+        <img src="conceal.jpg" alt="Concealer">
+        <br><strong>Concealer</strong>
+      </a>
+    </div>
+    <div class="product-item">
+      <a href="lipstick.html">
+        <img src="lips.jpg" alt="Lipstick">
+        <br><strong>Lipstick</strong>
+      </a>
+    </div>
+    <div class="product-item">
+      <a href="blush.html">
+        <img src="blush.jpg" alt="Blush">
+        <br><strong>Blush</strong>
+      </a>
+    </div>
+    <div class="product-item">
+      <a href="hl.html">
+        <img src="hl.jpg" alt="Highlighter">
+        <br><strong>Highlighter</strong>
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Email: GlamGlitz@gmail.com</p>
+  <p>Facebook: Glamour Glitz</p>
+  <p>TikTok: GlamGlitzOfficial</p>
+  <p>IG: GlamGlitzOfficial</p>
+</footer>
+
+</body>
+</html>
